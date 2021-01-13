@@ -1,0 +1,22 @@
+{
+  "name": "typecho2hugo",
+  "version": "1.0.0",
+  "main": "export2hugo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node export2hugo.js"
+  },
+  "keywords": [
+    "typecho",
+    "hugo",
+    "export",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "export all your typecho posts in sqlite to hugo",
+  "dependencies": {
+    "better-sqlite3": "^7.1.2",
+    "del": "^6.0.0"
+  }
+}
